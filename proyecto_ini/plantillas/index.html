@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>trabajo tabla</title>
+        <link type="text/css" href="{% static 'css/style.css' %}" rel="stylesheet"/>
+    </head>
+    <body>
+        <form>
+            <table class="tabla">
+                <tr>
+                    <td><label>Nombre: </label></td>
+                    <td><input type="text" id="nombre" placeholder="Ingrese nombre"></td>
+                </tr>
+                <tr>
+                    <td><label>Run: </label></td>
+                    <td><input type="text" id="run" placeholder="Ingrese Run"></td>
+                </tr>
+                <tr>
+                    <td><label>Carrera: </label></td>
+                    <td><input type="text" id="Carrera" placeholder="Ingrese Carrera"></td>
+                </tr>
+                <tr>
+                    <td><label> Notas: </label></td>
+                    <td class="notas">
+                        <input type="text" placeholder="nota 1">
+                        <input type="text" placeholder="nota 2">
+                        <input type="text" placeholder="nota 3">
+                        <input type="text" placeholder="nota 4">
+                        <input type="text" placeholder="nota 5">
+                        <input type="text" placeholder="nota 6">
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="enviar" id="borrar" value="enviar">
+                        <input type="reset"  name="borrar" id="borrar" value="borrar">
+                    </td>
+                </tr>
+        </table>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;   
+   }
+.tabla, td, th{
+    border: 1px solid black;
+    
+}
+.notas, input{
+    width:100px ;
+    height:20px ;
+
+}
